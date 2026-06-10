@@ -8,7 +8,6 @@
     ],
     "description": "Bucle for basico (start:end)"
   },
-
   "Octave For Loop with Step": {
     "prefix": "fors",
     "body": [
@@ -18,7 +17,6 @@
     ],
     "description": "Bucle for con paso (start:step:end)"
   },
-
   "Octave While Loop": {
     "prefix": "while",
     "body": [
@@ -28,7 +26,6 @@
     ],
     "description": "Bucle while"
   },
-
   "Octave If": {
     "prefix": "if",
     "body": [
@@ -38,7 +35,6 @@
     ],
     "description": "Estructura if simple"
   },
-
   "Octave If-Else": {
     "prefix": "ife",
     "body": [
@@ -50,7 +46,6 @@
     ],
     "description": "Estructura if-else"
   },
-
   "Octave If-Elseif-Else": {
     "prefix": "ifee",
     "body": [
@@ -64,7 +59,6 @@
     ],
     "description": "Estructura if-elseif-else"
   },
-
   "Octave Switch": {
     "prefix": "switch",
     "body": [
@@ -79,7 +73,6 @@
     ],
     "description": "Estructura switch-case-otherwise"
   },
-
   "Octave Function (single return)": {
     "prefix": "fun",
     "body": [
@@ -90,7 +83,6 @@
     ],
     "description": "Funcion con un valor de retorno"
   },
-
   "Octave Function (multiple return)": {
     "prefix": "funm",
     "body": [
@@ -102,7 +94,6 @@
     ],
     "description": "Funcion con multiples valores de retorno"
   },
-
   "Octave Function (void)": {
     "prefix": "funv",
     "body": [
@@ -112,7 +103,6 @@
     ],
     "description": "Funcion sin valor de retorno (void)"
   },
-
   "Octave Try-Catch": {
     "prefix": "try",
     "body": [
@@ -124,7 +114,6 @@
     ],
     "description": "Manejo de excepciones try-catch (end_try_catch en Octave)"
   },
-
   "Octave Row Vector": {
     "prefix": "vec",
     "body": [
@@ -132,7 +121,6 @@
     ],
     "description": "Vector fila"
   },
-
   "Octave Column Vector": {
     "prefix": "vecc",
     "body": [
@@ -140,7 +128,6 @@
     ],
     "description": "Vector columna (separar con punto y coma)"
   },
-
   "Octave Linspace Vector": {
     "prefix": "lsp",
     "body": [
@@ -148,7 +135,6 @@
     ],
     "description": "Vector con espaciado lineal uniforme"
   },
-
   "Octave Matrix": {
     "prefix": "mat",
     "body": [
@@ -156,7 +142,6 @@
     ],
     "description": "Matriz (filas separadas con ';')"
   },
-
   "Octave Zeros Matrix": {
     "prefix": "matz",
     "body": [
@@ -164,7 +149,6 @@
     ],
     "description": "Matriz de ceros"
   },
-
   "Octave Ones Matrix": {
     "prefix": "mato",
     "body": [
@@ -172,7 +156,6 @@
     ],
     "description": "Matriz de unos"
   },
-
   "Octave Identity Matrix": {
     "prefix": "mati",
     "body": [
@@ -180,7 +163,6 @@
     ],
     "description": "Matriz identidad n x n"
   },
-
   "Octave Plot Basic": {
     "prefix": "plot",
     "body": [
@@ -193,7 +175,6 @@
     ],
     "description": "Grafico basico con etiquetas, titulo y cuadricula"
   },
-
   "Octave Plot Styled": {
     "prefix": "plots",
     "body": [
@@ -207,7 +188,6 @@
     ],
     "description": "Grafico con estilo de linea y leyenda"
   },
-
   "Octave Subplot": {
     "prefix": "subplot",
     "body": [
@@ -221,7 +201,6 @@
     ],
     "description": "Subgrafico dentro de una figura"
   },
-
   "Octave Comment Block": {
     "prefix": "cb",
     "body": [
@@ -230,7 +209,6 @@
     ],
     "description": "Separador de seccion en script"
   },
-
   "Octave Script Header": {
     "prefix": "header",
     "body": [
@@ -242,7 +220,6 @@
     ],
     "description": "Inicializacion limpia de script"
   },
-
   "Octave Printf": {
     "prefix": "pf",
     "body": [
@@ -250,7 +227,6 @@
     ],
     "description": "printf con salto de linea"
   },
-
   "Octave Disp": {
     "prefix": "disp",
     "body": [
@@ -258,7 +234,6 @@
     ],
     "description": "Mostrar valor de variable"
   },
-
   "Octave Do-Until Loop": {
     "prefix": "do",
     "body": [
@@ -268,7 +243,6 @@
     ],
     "description": "Bucle do-until (ejecuta al menos una vez)"
   },
-
   "Octave Main Script": {
     "prefix": "main",
     "body": [
@@ -287,7 +261,6 @@
     ],
     "description": "Estructura limpia de script principal"
   },
-
   "Octave Nested For": {
     "prefix": "forn",
     "body": [
@@ -299,7 +272,6 @@
     ],
     "description": "Bucles for anidados (filas x columnas)"
   },
-
   "Octave Inline If (ternario)": {
     "prefix": "ifi",
     "body": [
@@ -307,7 +279,6 @@
     ],
     "description": "Operador ternario inline — Octave no tiene ?: nativo, se simula con aritmetica logica"
   },
-
   "Octave Printf Multiple": {
     "prefix": "pfm",
     "body": [
@@ -315,7 +286,6 @@
     ],
     "description": "printf con multiples variables en una sola linea"
   },
-
   "Octave Figure Custom": {
     "prefix": "fig",
     "body": [
@@ -330,7 +300,6 @@
     ],
     "description": "Figura personalizada con nombre, fuentes y eje ajustado"
   },
-
   "Octave Doc Header": {
     "prefix": "doc",
     "body": [
@@ -340,5 +309,687 @@
       "%% Desc.   : ${4:Descripcion del script}"
     ],
     "description": "Bloque de documentacion opcional (autor, fecha, descripcion)"
+  },
+  "Octave Color Red": {
+    "prefix": "red",
+    "body": [
+      "'r'"
+    ],
+    "description": "Color rojo para graficos"
+  },
+  "Octave Color Green": {
+    "prefix": "green",
+    "body": [
+      "'g'"
+    ],
+    "description": "Color verde para graficos"
+  },
+  "Octave Color Blue": {
+    "prefix": "blue",
+    "body": [
+      "'b'"
+    ],
+    "description": "Color azul para graficos"
+  },
+  "Octave Color Cyan": {
+    "prefix": "cyan",
+    "body": [
+      "'c'"
+    ],
+    "description": "Color cian para graficos"
+  },
+  "Octave Color Magenta": {
+    "prefix": "magenta",
+    "body": [
+      "'m'"
+    ],
+    "description": "Color magenta para graficos"
+  },
+  "Octave Color Yellow": {
+    "prefix": "yellow",
+    "body": [
+      "'y'"
+    ],
+    "description": "Color amarillo para graficos"
+  },
+  "Octave Color Black": {
+    "prefix": "black",
+    "body": [
+      "'k'"
+    ],
+    "description": "Color negro para graficos"
+  },
+  "Octave Color White": {
+    "prefix": "white",
+    "body": [
+      "'w'"
+    ],
+    "description": "Color blanco para graficos"
+  },
+  "Octave Color RGB Custom": {
+    "prefix": "rgb",
+    "body": [
+      "[${1:0.5}, ${2:0.2}, ${3:0.8}]"
+    ],
+    "description": "Color RGB personalizado — valores entre 0 y 1"
+  },
+  "Octave Scatter Plot": {
+    "prefix": "scatter",
+    "body": [
+      "figure;",
+      "scatter(${1:x}, ${2:y}, ${3:40}, ${4:'b'}, 'filled');",
+      "xlabel('${5:Eje X}');",
+      "ylabel('${6:Eje Y}');",
+      "title('${7:Diagrama de dispersion}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Diagrama de dispersion con puntos rellenos"
+  },
+  "Octave Bar Chart": {
+    "prefix": "bar",
+    "body": [
+      "figure;",
+      "bar(${1:x}, ${2:y});",
+      "xlabel('${3:Eje X}');",
+      "ylabel('${4:Eje Y}');",
+      "title('${5:Grafico de barras}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico de barras verticales"
+  },
+  "Octave Bar Horizontal": {
+    "prefix": "barh",
+    "body": [
+      "figure;",
+      "barh(${1:y}, ${2:x});",
+      "xlabel('${3:Valores}');",
+      "ylabel('${4:Categorias}');",
+      "title('${5:Barras horizontales}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico de barras horizontales"
+  },
+  "Octave Histogram": {
+    "prefix": "hist",
+    "body": [
+      "figure;",
+      "hist(${1:datos}, ${2:20});",
+      "xlabel('${3:Valores}');",
+      "ylabel('${4:Frecuencia}');",
+      "title('${5:Histograma}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Histograma con n bins (hist es nativo en Octave 8.4)"
+  },
+  "Octave Stairs Plot": {
+    "prefix": "stairs",
+    "body": [
+      "figure;",
+      "stairs(${1:x}, ${2:y});",
+      "xlabel('${3:Eje X}');",
+      "ylabel('${4:Eje Y}');",
+      "title('${5:Grafico escalonado}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico escalonado — util para senales discretas"
+  },
+  "Octave Stem Plot": {
+    "prefix": "stem",
+    "body": [
+      "figure;",
+      "stem(${1:x}, ${2:y});",
+      "xlabel('${3:Eje X}');",
+      "ylabel('${4:Eje Y}');",
+      "title('${5:Grafico de tallos}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico de tallos — senales discretas en el tiempo"
+  },
+  "Octave Area Plot": {
+    "prefix": "area",
+    "body": [
+      "figure;",
+      "area(${1:x}, ${2:y});",
+      "xlabel('${3:Eje X}');",
+      "ylabel('${4:Eje Y}');",
+      "title('${5:Grafico de area}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico de area rellena bajo la curva"
+  },
+  "Octave Pie Chart": {
+    "prefix": "pie",
+    "body": [
+      "figure;",
+      "pie(${1:valores}, {${2:'A', 'B', 'C'}});",
+      "title('${3:Grafico de pastel}');",
+      "$0"
+    ],
+    "description": "Grafico de pastel con etiquetas en cell array"
+  },
+  "Octave Boxplot": {
+    "prefix": "boxplot",
+    "body": [
+      "% Requiere: pkg load statistics",
+      "figure;",
+      "boxplot(${1:datos});",
+      "title('${2:Diagrama de caja}');",
+      "ylabel('${3:Valores}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Diagrama de caja — requiere pkg statistics (Octave Forge)"
+  },
+  "Octave Errorbar Plot": {
+    "prefix": "errorbar",
+    "body": [
+      "figure;",
+      "errorbar(${1:x}, ${2:y}, ${3:err});",
+      "xlabel('${4:Eje X}');",
+      "ylabel('${5:Eje Y}');",
+      "title('${6:Grafico con barras de error}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico de linea con barras de error simetrico"
+  },
+  "Octave Fill Polygon": {
+    "prefix": "fill",
+    "body": [
+      "figure;",
+      "fill(${1:x}, ${2:y}, '${3:b}');",
+      "xlabel('${4:Eje X}');",
+      "ylabel('${5:Eje Y}');",
+      "title('${6:Poligono relleno}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Relleno de poligono definido por vectores x, y"
+  },
+  "Octave LogLog Plot": {
+    "prefix": "loglog",
+    "body": [
+      "figure;",
+      "loglog(${1:x}, ${2:y}, '${3:b-}');",
+      "xlabel('${4:Eje X (log)}');",
+      "ylabel('${5:Eje Y (log)}');",
+      "title('${6:Escala log-log}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico con ambos ejes en escala logaritmica"
+  },
+  "Octave Semilogx Plot": {
+    "prefix": "semilogx",
+    "body": [
+      "figure;",
+      "semilogx(${1:x}, ${2:y}, '${3:b-}');",
+      "xlabel('${4:Eje X (log)}');",
+      "ylabel('${5:Eje Y}');",
+      "title('${6:Semi-log X}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico con eje X en escala logaritmica"
+  },
+  "Octave Semilogy Plot": {
+    "prefix": "semilogy",
+    "body": [
+      "figure;",
+      "semilogy(${1:x}, ${2:y}, '${3:b-}');",
+      "xlabel('${4:Eje X}');",
+      "ylabel('${5:Eje Y (log)}');",
+      "title('${6:Semi-log Y}');",
+      "grid on;",
+      "$0"
+    ],
+    "description": "Grafico con eje Y en escala logaritmica"
+  },
+  "Octave Contour Plot": {
+    "prefix": "contour",
+    "body": [
+      "[${1:X}, ${2:Y}] = meshgrid(${3:linspace(-2,2,50)}, ${4:linspace(-2,2,50)});",
+      "${5:Z} = ${6:X.^2 + Y.^2};",
+      "figure;",
+      "contour(${1:X}, ${2:Y}, ${5:Z}, ${7:20});",
+      "colorbar;",
+      "xlabel('${8:X}');",
+      "ylabel('${9:Y}');",
+      "title('${10:Grafico de contorno}');",
+      "$0"
+    ],
+    "description": "Grafico de contorno 2D con colorbar"
+  },
+  "Octave Surf 3D": {
+    "prefix": "surf",
+    "body": [
+      "[${1:X}, ${2:Y}] = meshgrid(${3:linspace(-2,2,40)}, ${4:linspace(-2,2,40)});",
+      "${5:Z} = ${6:sin(X) .* cos(Y)};",
+      "figure;",
+      "surf(${1:X}, ${2:Y}, ${5:Z});",
+      "shading interp;",
+      "colorbar;",
+      "xlabel('${7:X}');",
+      "ylabel('${8:Y}');",
+      "zlabel('${9:Z}');",
+      "title('${10:Superficie 3D}');",
+      "$0"
+    ],
+    "description": "Superficie 3D con shading interpolado y colorbar"
+  },
+  "Octave Mesh 3D": {
+    "prefix": "mesh",
+    "body": [
+      "[${1:X}, ${2:Y}] = meshgrid(${3:linspace(-2,2,40)}, ${4:linspace(-2,2,40)});",
+      "${5:Z} = ${6:X.^2 + Y.^2};",
+      "figure;",
+      "mesh(${1:X}, ${2:Y}, ${5:Z});",
+      "xlabel('${7:X}');",
+      "ylabel('${8:Y}');",
+      "zlabel('${9:Z}');",
+      "title('${10:Malla 3D}');",
+      "$0"
+    ],
+    "description": "Malla 3D wireframe (mesh)"
+  },
+  "Octave Plot3 Line": {
+    "prefix": "plot3",
+    "body": [
+      "figure;",
+      "plot3(${1:x}, ${2:y}, ${3:z}, '${4:b-}');",
+      "xlabel('${5:X}');",
+      "ylabel('${6:Y}');",
+      "zlabel('${7:Z}');",
+      "title('${8:Linea 3D}');",
+      "grid on;",
+      "view(${9:45}, ${10:30});",
+      "$0"
+    ],
+    "description": "Linea en 3 dimensiones con angulo de vista"
+  },
+  "Octave Quiver 2D": {
+    "prefix": "quiver",
+    "body": [
+      "[${1:X}, ${2:Y}] = meshgrid(${3:linspace(-2,2,15)}, ${4:linspace(-2,2,15)});",
+      "${5:U} = ${6:-Y};",
+      "${7:V} = ${8:X};",
+      "figure;",
+      "quiver(${1:X}, ${2:Y}, ${5:U}, ${7:V});",
+      "xlabel('${9:X}');",
+      "ylabel('${10:Y}');",
+      "title('${11:Campo de vectores}');",
+      "axis equal;",
+      "$0"
+    ],
+    "description": "Campo de vectores 2D — flechas en grilla"
+  },
+  "Octave Roots": {
+    "prefix": "roots",
+    "body": [
+      "${1:r} = roots([${2:1, 0, -1}]);",
+      "$0"
+    ],
+    "description": "Raices de polinomio — coeficientes de mayor a menor grado"
+  },
+  "Octave Polyval": {
+    "prefix": "polyval",
+    "body": [
+      "${1:y} = polyval([${2:coeficientes}], ${3:x});",
+      "$0"
+    ],
+    "description": "Evaluar polinomio en puntos x — coefs de mayor a menor"
+  },
+  "Octave Polyfit": {
+    "prefix": "polyfit",
+    "body": [
+      "${1:p} = polyfit(${2:x}, ${3:y}, ${4:grado});",
+      "${5:y_fit} = polyval(${1:p}, ${2:x});",
+      "$0"
+    ],
+    "description": "Ajuste polinomial de grado n — devuelve coeficientes"
+  },
+  "Octave Linear System Solve": {
+    "prefix": "solve",
+    "body": [
+      "${1:x} = ${2:A} \\ ${3:b};",
+      "$0"
+    ],
+    "description": "Resuelve sistema lineal Ax=b con backslash (eficiente, no usa inv)"
+  },
+  "Octave Matrix Inverse": {
+    "prefix": "inv",
+    "body": [
+      "${1:Ainv} = inv(${2:A});",
+      "$0"
+    ],
+    "description": "Inversa de matriz cuadrada — usar A\\b para sistemas lineales"
+  },
+  "Octave Determinant": {
+    "prefix": "det",
+    "body": [
+      "${1:d} = det(${2:A});",
+      "$0"
+    ],
+    "description": "Determinante de matriz cuadrada"
+  },
+  "Octave Eigenvalues": {
+    "prefix": "eig",
+    "body": [
+      "[${1:V}, ${2:D}] = eig(${3:A});",
+      "% D: matriz diagonal con valores propios",
+      "% V: columnas son vectores propios",
+      "$0"
+    ],
+    "description": "Valores y vectores propios — D diagonal, V columnas"
+  },
+  "Octave SVD": {
+    "prefix": "svd",
+    "body": [
+      "[${1:U}, ${2:S}, ${3:V}] = svd(${4:A});",
+      "% A = U * S * V'",
+      "$0"
+    ],
+    "description": "Descomposicion en valores singulares — A = U*S*V'"
+  },
+  "Octave Interp1": {
+    "prefix": "interp1",
+    "body": [
+      "${1:yi} = interp1(${2:x}, ${3:y}, ${4:xi}, '${5:linear}');",
+      "$0"
+    ],
+    "description": "Interpolacion 1D — metodos: linear, cubic, spline, nearest"
+  },
+  "Octave Interp2": {
+    "prefix": "interp2",
+    "body": [
+      "${1:Zi} = interp2(${2:X}, ${3:Y}, ${4:Z}, ${5:Xi}, ${6:Yi}, '${7:linear}');",
+      "$0"
+    ],
+    "description": "Interpolacion 2D sobre grilla"
+  },
+  "Octave Trapz Integral": {
+    "prefix": "trapz",
+    "body": [
+      "${1:area} = trapz(${2:x}, ${3:y});",
+      "$0"
+    ],
+    "description": "Integral numerica por metodo trapezoidal"
+  },
+  "Octave Diff Derivative": {
+    "prefix": "diff",
+    "body": [
+      "${1:dy} = diff(${2:y}) ./ diff(${3:x});",
+      "$0"
+    ],
+    "description": "Derivada numerica por diferencias finitas"
+  },
+  "Octave Gradient": {
+    "prefix": "gradient",
+    "body": [
+      "${1:dydx} = gradient(${2:y}, ${3:x});",
+      "$0"
+    ],
+    "description": "Gradiente numerico con espaciado variable"
+  },
+  "Octave Norm": {
+    "prefix": "norm",
+    "body": [
+      "${1:n} = norm(${2:v}, ${3:2});",
+      "$0"
+    ],
+    "description": "Norma de vector o matriz — 2: euclidiana, 1, Inf, 'fro'"
+  },
+  "Octave Cond Number": {
+    "prefix": "cond",
+    "body": [
+      "${1:k} = cond(${2:A});",
+      "$0"
+    ],
+    "description": "Numero de condicion de matriz — grande indica mal condicionamiento"
+  },
+  "Octave Cell Array Create": {
+    "prefix": "cell",
+    "body": [
+      "${1:C} = cell(${2:filas}, ${3:columnas});",
+      "$0"
+    ],
+    "description": "Crear cell array vacio de dimensiones dadas"
+  },
+  "Octave Cell Index Assign": {
+    "prefix": "cellidx",
+    "body": [
+      "${1:C}{${2:fila}, ${3:col}} = ${4:'valor'};",
+      "$0"
+    ],
+    "description": "Asignar valor a celda con indexacion de llaves {}"
+  },
+  "Octave Struct Create": {
+    "prefix": "struct",
+    "body": [
+      "${1:s}.${2:campo} = ${3:valor};",
+      "$0"
+    ],
+    "description": "Crear/asignar campo de estructura"
+  },
+  "Octave Struct Array": {
+    "prefix": "structarray",
+    "body": [
+      "${1:arr} = repmat(struct('${2:campo1}', ${3:0}, '${4:campo2}', ${5:0}), ${6:n}, 1);",
+      "$0"
+    ],
+    "description": "Array de structs de n elementos con campos inicializados en 0"
+  },
+  "Octave Cellfun": {
+    "prefix": "cellfun",
+    "body": [
+      "${1:resultado} = cellfun(@(${2:x}) ${3:length(x)}, ${4:C});",
+      "$0"
+    ],
+    "description": "Aplicar funcion anonima a cada elemento de un cell array"
+  },
+  "Octave Arrayfun": {
+    "prefix": "arrayfun",
+    "body": [
+      "${1:resultado} = arrayfun(@(${2:x}) ${3:x.^2}, ${4:v});",
+      "$0"
+    ],
+    "description": "Aplicar funcion anonima elemento a elemento sobre un array"
+  },
+  "Octave Structfun": {
+    "prefix": "structfun",
+    "body": [
+      "${1:resultado} = structfun(@(${2:x}) ${3:x * 2}, ${4:s});",
+      "$0"
+    ],
+    "description": "Aplicar funcion a cada campo de una estructura"
+  },
+  "Octave Find": {
+    "prefix": "find",
+    "body": [
+      "${1:idx} = find(${2:v} ${3:> 0});",
+      "$0"
+    ],
+    "description": "Indices donde se cumple la condicion logica"
+  },
+  "Octave Unique": {
+    "prefix": "unique",
+    "body": [
+      "${1:u} = unique(${2:v});",
+      "$0"
+    ],
+    "description": "Valores unicos del vector, ordenados de menor a mayor"
+  },
+  "Octave Ismember": {
+    "prefix": "ismember",
+    "body": [
+      "${1:tf} = ismember(${2:elemento}, ${3:conjunto});",
+      "$0"
+    ],
+    "description": "Verifica si elemento pertenece al conjunto — retorna logico"
+  },
+  "Octave Sort": {
+    "prefix": "sort",
+    "body": [
+      "[${1:ordenado}, ${2:idx}] = sort(${3:v}, '${4:ascend}');",
+      "$0"
+    ],
+    "description": "Ordenamiento con indices originales — ascend o descend"
+  },
+  "Octave Stats Block": {
+    "prefix": "stats",
+    "body": [
+      "${1:total}  = sum(${2:datos});",
+      "${3:media}  = mean(${2:datos});",
+      "${4:mediana} = median(${2:datos});",
+      "${5:desv}   = std(${2:datos});",
+      "${6:varianza} = var(${2:datos});",
+      "$0"
+    ],
+    "description": "Bloque completo de estadisticas descriptivas"
+  },
+  "Octave Cumsum": {
+    "prefix": "cumsum",
+    "body": [
+      "${1:cs} = cumsum(${2:v});",
+      "$0"
+    ],
+    "description": "Suma acumulada del vector"
+  },
+  "Octave Cumprod": {
+    "prefix": "cumprod",
+    "body": [
+      "${1:cp} = cumprod(${2:v});",
+      "$0"
+    ],
+    "description": "Producto acumulado del vector"
+  },
+  "Octave Repmat": {
+    "prefix": "repmat",
+    "body": [
+      "${1:R} = repmat(${2:A}, ${3:filas}, ${4:columnas});",
+      "$0"
+    ],
+    "description": "Repetir matriz o vector en bloques"
+  },
+  "Octave Reshape": {
+    "prefix": "reshape",
+    "body": [
+      "${1:B} = reshape(${2:A}, ${3:filas}, ${4:columnas});",
+      "$0"
+    ],
+    "description": "Cambiar dimensiones — total de elementos debe ser igual"
+  },
+  "Octave Logspace": {
+    "prefix": "logspace",
+    "body": [
+      "${1:v} = logspace(${2:inicio_exp}, ${3:fin_exp}, ${4:n_puntos});",
+      "$0"
+    ],
+    "description": "Vector logaritmico — de 10^inicio a 10^fin con n puntos"
+  },
+  "Octave Meshgrid": {
+    "prefix": "meshgrid",
+    "body": [
+      "[${1:X}, ${2:Y}] = meshgrid(${3:linspace(-2,2,50)}, ${4:linspace(-2,2,50)});",
+      "$0"
+    ],
+    "description": "Grilla 2D para graficos 3D y contornos — genera matrices X e Y"
+  },
+  "Octave If-Elseif-Elseif-Else": {
+    "prefix": "ifeee",
+    "body": [
+      "if (${1:condicion1})",
+      "\t${2:% caso 1}",
+      "elseif (${3:condicion2})",
+      "\t${4:% caso 2}",
+      "elseif (${5:condicion3})",
+      "\t${6:% caso 3}",
+      "else",
+      "\t${7:% caso por defecto}",
+      "endif",
+      "$0"
+    ],
+    "description": "If con dos o mas elseif (estructura navegable)"
+  },
+  "Octave For Loop with Break": {
+    "prefix": "forb",
+    "body": [
+      "for ${1:i} = ${2:1}:${3:n}",
+      "\tif (${4:condicion_break})",
+      "\t\tbreak;",
+      "\tendif",
+      "\t${5:% cuerpo del bucle}",
+      "endfor",
+      "$0"
+    ],
+    "description": "Bucle for con break condicional (patron comun)"
+  },
+  "Octave While Loop with Counter": {
+    "prefix": "whilec",
+    "body": [
+      "${1:i} = ${2:1};",
+      "while (${1:i} <= ${3:n})",
+      "\t${4:% cuerpo del bucle}",
+      "\t${1:i} = ${1:i} + ${5:1};",
+      "endwhile",
+      "$0"
+    ],
+    "description": "Bucle while con contador explicito"
+  },
+  "Octave Anonymous Function": {
+    "prefix": "anon",
+    "body": [
+      "${1:f} = @(${2:x}) ${3:x.^2};",
+      "$0"
+    ],
+    "description": "Funcion anonima — usar con fzero, fminbnd, arrayfun, cellfun, etc."
+  },
+  "Octave Hold On Off Block": {
+    "prefix": "hold",
+    "body": [
+      "hold on;",
+      "plot(${1:x1}, ${2:y1}, '${3:b-}');",
+      "plot(${4:x2}, ${5:y2}, '${6:r--}');",
+      "hold off;",
+      "$0"
+    ],
+    "description": "Superponer graficas en la misma figura con hold on/off"
+  },
+  "Octave Unwind Protect": {
+    "prefix": "uwp",
+    "body": [
+      "unwind_protect",
+      "\t${1:% codigo que puede fallar}",
+      "unwind_protect_cleanup",
+      "\t${2:% siempre se ejecuta, con o sin error}",
+      "end_unwind_protect",
+      "$0"
+    ],
+    "description": "Manejo de errores con limpieza garantizada — exclusivo de Octave"
+  },
+  "Octave Fzero Root Finding": {
+    "prefix": "fzero",
+    "body": [
+      "${1:f} = @(${2:x}) ${3:expresion};",
+      "${4:x0} = ${5:1};",
+      "${6:raiz} = fzero(${1:f}, ${4:x0});",
+      "$0"
+    ],
+    "description": "Busqueda de raices de funcion escalar — fzero(f, x0)"
+  },
+  "Octave Fprintf Table": {
+    "prefix": "fw",
+    "body": [
+      "fprintf('%-${1:15}s %${2:10}.${3:4}f\\n', ${4:etiqueta}, ${5:valor});",
+      "$0"
+    ],
+    "description": "fprintf con formato de tabla — alineacion izquierda string, derecha float"
   }
 }
