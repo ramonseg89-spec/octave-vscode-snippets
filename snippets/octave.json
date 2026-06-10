@@ -4,7 +4,8 @@
     "body": [
       "for ${1:i} = ${2:1}:${3:n}",
       "\t${4:% cuerpo del bucle}",
-      "endfor"
+      "endfor",
+      "$0"
     ],
     "description": "Bucle for basico (start:end)"
   },
@@ -13,7 +14,8 @@
     "body": [
       "for ${1:i} = ${2:start}:${3:step}:${4:end}",
       "\t${5:% cuerpo del bucle}",
-      "endfor"
+      "endfor",
+      "$0"
     ],
     "description": "Bucle for con paso (start:step:end)"
   },
@@ -22,7 +24,8 @@
     "body": [
       "while (${1:condicion})",
       "\t${2:% cuerpo del bucle}",
-      "endwhile"
+      "endwhile",
+      "$0"
     ],
     "description": "Bucle while"
   },
@@ -31,7 +34,8 @@
     "body": [
       "if (${1:condicion})",
       "\t${2:% rama verdadera}",
-      "endif"
+      "endif",
+      "$0"
     ],
     "description": "Estructura if simple"
   },
@@ -42,7 +46,8 @@
       "\t${2:% rama verdadera}",
       "else",
       "\t${3:% rama falsa}",
-      "endif"
+      "endif",
+      "$0"
     ],
     "description": "Estructura if-else"
   },
@@ -55,7 +60,8 @@
       "\t${4:% segunda rama}",
       "else",
       "\t${5:% rama por defecto}",
-      "endif"
+      "endif",
+      "$0"
     ],
     "description": "Estructura if-elseif-else"
   },
@@ -69,7 +75,8 @@
       "\t\t${5:% accion caso 2}",
       "\totherwise",
       "\t\t${6:% accion por defecto}",
-      "endswitch"
+      "endswitch",
+      "$0"
     ],
     "description": "Estructura switch-case-otherwise"
   },
@@ -79,7 +86,8 @@
       "function ${1:retval} = ${2:nombre} (${3:args})",
       "\t${4:% cuerpo de la funcion}",
       "\t${1:retval} = ${5:0};",
-      "endfunction"
+      "endfunction",
+      "$0"
     ],
     "description": "Funcion con un valor de retorno"
   },
@@ -90,7 +98,8 @@
       "\t${5:% cuerpo de la funcion}",
       "\t${1:out1} = ${6:0};",
       "\t${2:out2} = ${7:0};",
-      "endfunction"
+      "endfunction",
+      "$0"
     ],
     "description": "Funcion con multiples valores de retorno"
   },
@@ -99,7 +108,8 @@
     "body": [
       "function ${1:nombre} (${2:args})",
       "\t${3:% cuerpo de la funcion}",
-      "endfunction"
+      "endfunction",
+      "$0"
     ],
     "description": "Funcion sin valor de retorno (void)"
   },
@@ -110,7 +120,8 @@
       "\t${1:% codigo que puede fallar}",
       "catch ${2:err}",
       "\t${3:printf('Error: %s\\n', ${2:err}.message);}",
-      "end_try_catch"
+      "end_try_catch",
+      "$0"
     ],
     "description": "Manejo de excepciones try-catch (end_try_catch en Octave)"
   },
@@ -171,7 +182,8 @@
       "xlabel('${3:Eje X}');",
       "ylabel('${4:Eje Y}');",
       "title('${5:Titulo del grafico}');",
-      "grid on;"
+      "grid on;",
+      "$0"
     ],
     "description": "Grafico basico con etiquetas, titulo y cuadricula"
   },
@@ -184,7 +196,8 @@
       "ylabel('${6:Eje Y}');",
       "title('${7:Titulo del grafico}');",
       "legend('${8:Serie 1}');",
-      "grid on;"
+      "grid on;",
+      "$0"
     ],
     "description": "Grafico con estilo de linea y leyenda"
   },
@@ -197,7 +210,8 @@
       "xlabel('${6:Eje X}');",
       "ylabel('${7:Eje Y}');",
       "title('${8:Subtitulo}');",
-      "grid on;"
+      "grid on;",
+      "$0"
     ],
     "description": "Subgrafico dentro de una figura"
   },
@@ -239,7 +253,8 @@
     "body": [
       "do",
       "\t${1:% cuerpo del bucle}",
-      "until (${2:condicion});"
+      "until (${2:condicion});",
+      "$0"
     ],
     "description": "Bucle do-until (ejecuta al menos una vez)"
   },
@@ -268,7 +283,8 @@
       "\tfor ${4:j} = ${5:1}:${6:n}",
       "\t\t${7:% cuerpo del bucle interno}",
       "\tendfor",
-      "endfor"
+      "endfor",
+      "$0"
     ],
     "description": "Bucles for anidados (filas x columnas)"
   },
@@ -296,7 +312,8 @@
       "title('${9:Titulo}', 'FontSize', ${10:14});",
       "legend('${11:Serie 1}', 'Location', 'best');",
       "grid on;",
-      "axis tight;"
+      "axis tight;",
+      "$0"
     ],
     "description": "Figura personalizada con nombre, fuentes y eje ajustado"
   },
@@ -991,5 +1008,15 @@
       "$0"
     ],
     "description": "fprintf con formato de tabla — alineacion izquierda string, derecha float"
+  },
+  "Octave Fprintf File": {
+    "prefix": "fwf",
+    "body": [
+      "${1:fid} = fopen('${2:archivo.txt}', '${3:w}');",
+      "fprintf(${1:fid}, '%-${4:15}s %${5:10}.${6:4}f\\n', ${7:etiqueta}, ${8:valor});",
+      "fclose(${1:fid});",
+      "$0"
+    ],
+    "description": "fprintf a archivo — fopen/fprintf/fclose con formato de tabla"
   }
 }
