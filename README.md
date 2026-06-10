@@ -19,7 +19,7 @@ cd octave-vscode-snippets
 # Copiar snippets/octave.json al directorio de snippets de VS Code
 ```
 
-### Opción C — VS Code Marketplace *(próximamente)*
+### Opción C — VS Code Marketplace
 
 Busca **"Octave Snippets Enhanced"** en el Marketplace.
 
