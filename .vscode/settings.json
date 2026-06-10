@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "[octave]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showSnippets": true
+  },
+  "files.associations": {
+    "*.m": "octave"
+  }
+}

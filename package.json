@@ -1,0 +1,46 @@
+{
+  "name": "octave-snippets-enhanced",
+  "displayName": "Octave Snippets Enhanced",
+  "description": "32 snippets esenciales para GNU Octave 8.4.0 en VS Code (bucles, funciones, graficos, matrices)",
+  "version": "1.0.0",
+  "publisher": "ramonseg89-spec",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "octave",
+    "gnu-octave",
+    "matlab",
+    "snippets",
+    "scientific-computing"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramonseg89-spec/octave-vscode-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/ramonseg89-spec/octave-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/ramonseg89-spec/octave-vscode-snippets#readme",
+  "license": "MIT",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "octave",
+        "path": "./snippets/octave.json"
+      },
+      {
+        "language": "matlab",
+        "path": "./snippets/octave.json"
+      }
+    ]
+  }
+}

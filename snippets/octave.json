@@ -1,0 +1,344 @@
+{
+  "Octave For Loop": {
+    "prefix": "for",
+    "body": [
+      "for ${1:i} = ${2:1}:${3:n}",
+      "\t${4:% cuerpo del bucle}",
+      "endfor"
+    ],
+    "description": "Bucle for basico (start:end)"
+  },
+
+  "Octave For Loop with Step": {
+    "prefix": "fors",
+    "body": [
+      "for ${1:i} = ${2:start}:${3:step}:${4:end}",
+      "\t${5:% cuerpo del bucle}",
+      "endfor"
+    ],
+    "description": "Bucle for con paso (start:step:end)"
+  },
+
+  "Octave While Loop": {
+    "prefix": "while",
+    "body": [
+      "while (${1:condicion})",
+      "\t${2:% cuerpo del bucle}",
+      "endwhile"
+    ],
+    "description": "Bucle while"
+  },
+
+  "Octave If": {
+    "prefix": "if",
+    "body": [
+      "if (${1:condicion})",
+      "\t${2:% rama verdadera}",
+      "endif"
+    ],
+    "description": "Estructura if simple"
+  },
+
+  "Octave If-Else": {
+    "prefix": "ife",
+    "body": [
+      "if (${1:condicion})",
+      "\t${2:% rama verdadera}",
+      "else",
+      "\t${3:% rama falsa}",
+      "endif"
+    ],
+    "description": "Estructura if-else"
+  },
+
+  "Octave If-Elseif-Else": {
+    "prefix": "ifee",
+    "body": [
+      "if (${1:condicion1})",
+      "\t${2:% primera rama}",
+      "elseif (${3:condicion2})",
+      "\t${4:% segunda rama}",
+      "else",
+      "\t${5:% rama por defecto}",
+      "endif"
+    ],
+    "description": "Estructura if-elseif-else"
+  },
+
+  "Octave Switch": {
+    "prefix": "switch",
+    "body": [
+      "switch (${1:variable})",
+      "\tcase ${2:valor1}",
+      "\t\t${3:% accion caso 1}",
+      "\tcase ${4:valor2}",
+      "\t\t${5:% accion caso 2}",
+      "\totherwise",
+      "\t\t${6:% accion por defecto}",
+      "endswitch"
+    ],
+    "description": "Estructura switch-case-otherwise"
+  },
+
+  "Octave Function (single return)": {
+    "prefix": "fun",
+    "body": [
+      "function ${1:retval} = ${2:nombre} (${3:args})",
+      "\t${4:% cuerpo de la funcion}",
+      "\t${1:retval} = ${5:0};",
+      "endfunction"
+    ],
+    "description": "Funcion con un valor de retorno"
+  },
+
+  "Octave Function (multiple return)": {
+    "prefix": "funm",
+    "body": [
+      "function [${1:out1}, ${2:out2}] = ${3:nombre} (${4:args})",
+      "\t${5:% cuerpo de la funcion}",
+      "\t${1:out1} = ${6:0};",
+      "\t${2:out2} = ${7:0};",
+      "endfunction"
+    ],
+    "description": "Funcion con multiples valores de retorno"
+  },
+
+  "Octave Function (void)": {
+    "prefix": "funv",
+    "body": [
+      "function ${1:nombre} (${2:args})",
+      "\t${3:% cuerpo de la funcion}",
+      "endfunction"
+    ],
+    "description": "Funcion sin valor de retorno (void)"
+  },
+
+  "Octave Try-Catch": {
+    "prefix": "try",
+    "body": [
+      "try",
+      "\t${1:% codigo que puede fallar}",
+      "catch ${2:err}",
+      "\t${3:printf('Error: %s\\n', ${2:err}.message);}",
+      "end_try_catch"
+    ],
+    "description": "Manejo de excepciones try-catch (end_try_catch en Octave)"
+  },
+
+  "Octave Row Vector": {
+    "prefix": "vec",
+    "body": [
+      "${1:v} = [${2:1, 2, 3, 4, 5}];"
+    ],
+    "description": "Vector fila"
+  },
+
+  "Octave Column Vector": {
+    "prefix": "vecc",
+    "body": [
+      "${1:v} = [${2:1; 2; 3; 4; 5}];"
+    ],
+    "description": "Vector columna (separar con punto y coma)"
+  },
+
+  "Octave Linspace Vector": {
+    "prefix": "lsp",
+    "body": [
+      "${1:v} = linspace(${2:inicio}, ${3:fin}, ${4:n_puntos});"
+    ],
+    "description": "Vector con espaciado lineal uniforme"
+  },
+
+  "Octave Matrix": {
+    "prefix": "mat",
+    "body": [
+      "${1:M} = [${2:1, 2, 3}; ${3:4, 5, 6}; ${4:7, 8, 9}];"
+    ],
+    "description": "Matriz (filas separadas con ';')"
+  },
+
+  "Octave Zeros Matrix": {
+    "prefix": "matz",
+    "body": [
+      "${1:M} = zeros(${2:filas}, ${3:columnas});"
+    ],
+    "description": "Matriz de ceros"
+  },
+
+  "Octave Ones Matrix": {
+    "prefix": "mato",
+    "body": [
+      "${1:M} = ones(${2:filas}, ${3:columnas});"
+    ],
+    "description": "Matriz de unos"
+  },
+
+  "Octave Identity Matrix": {
+    "prefix": "mati",
+    "body": [
+      "${1:M} = eye(${2:n});"
+    ],
+    "description": "Matriz identidad n x n"
+  },
+
+  "Octave Plot Basic": {
+    "prefix": "plot",
+    "body": [
+      "figure;",
+      "plot(${1:x}, ${2:y});",
+      "xlabel('${3:Eje X}');",
+      "ylabel('${4:Eje Y}');",
+      "title('${5:Titulo del grafico}');",
+      "grid on;"
+    ],
+    "description": "Grafico basico con etiquetas, titulo y cuadricula"
+  },
+
+  "Octave Plot Styled": {
+    "prefix": "plots",
+    "body": [
+      "figure;",
+      "plot(${1:x}, ${2:y}, '${3:b-}', 'LineWidth', ${4:2});",
+      "xlabel('${5:Eje X}');",
+      "ylabel('${6:Eje Y}');",
+      "title('${7:Titulo del grafico}');",
+      "legend('${8:Serie 1}');",
+      "grid on;"
+    ],
+    "description": "Grafico con estilo de linea y leyenda"
+  },
+
+  "Octave Subplot": {
+    "prefix": "subplot",
+    "body": [
+      "figure;",
+      "subplot(${1:filas}, ${2:columnas}, ${3:posicion});",
+      "plot(${4:x}, ${5:y});",
+      "xlabel('${6:Eje X}');",
+      "ylabel('${7:Eje Y}');",
+      "title('${8:Subtitulo}');",
+      "grid on;"
+    ],
+    "description": "Subgrafico dentro de una figura"
+  },
+
+  "Octave Comment Block": {
+    "prefix": "cb",
+    "body": [
+      "%% --- ${1:Titulo de la seccion} ---",
+      "${2}"
+    ],
+    "description": "Separador de seccion en script"
+  },
+
+  "Octave Script Header": {
+    "prefix": "header",
+    "body": [
+      "clc;",
+      "clear;",
+      "close all;",
+      "",
+      "${1}"
+    ],
+    "description": "Inicializacion limpia de script"
+  },
+
+  "Octave Printf": {
+    "prefix": "pf",
+    "body": [
+      "printf('${1:%s}\\n', ${2:variable});"
+    ],
+    "description": "printf con salto de linea"
+  },
+
+  "Octave Disp": {
+    "prefix": "disp",
+    "body": [
+      "disp(${1:variable});"
+    ],
+    "description": "Mostrar valor de variable"
+  },
+
+  "Octave Do-Until Loop": {
+    "prefix": "do",
+    "body": [
+      "do",
+      "\t${1:% cuerpo del bucle}",
+      "until (${2:condicion});"
+    ],
+    "description": "Bucle do-until (ejecuta al menos una vez)"
+  },
+
+  "Octave Main Script": {
+    "prefix": "main",
+    "body": [
+      "clc;",
+      "clear;",
+      "close all;",
+      "",
+      "%% --- Parametros ---",
+      "${1:% tus variables aqui}",
+      "",
+      "%% --- Procesamiento ---",
+      "${2}",
+      "",
+      "%% --- Resultados ---",
+      "${3:% muestra resultados}"
+    ],
+    "description": "Estructura limpia de script principal"
+  },
+
+  "Octave Nested For": {
+    "prefix": "forn",
+    "body": [
+      "for ${1:i} = ${2:1}:${3:m}",
+      "\tfor ${4:j} = ${5:1}:${6:n}",
+      "\t\t${7:% cuerpo del bucle interno}",
+      "\tendfor",
+      "endfor"
+    ],
+    "description": "Bucles for anidados (filas x columnas)"
+  },
+
+  "Octave Inline If (ternario)": {
+    "prefix": "ifi",
+    "body": [
+      "${1:resultado} = ${2:val_verdadero} * (${3:condicion}) + ${4:val_falso} * (!(${3:condicion}));"
+    ],
+    "description": "Operador ternario inline — Octave no tiene ?: nativo, se simula con aritmetica logica"
+  },
+
+  "Octave Printf Multiple": {
+    "prefix": "pfm",
+    "body": [
+      "printf('${1:etiqueta1}: %${2:d}  ${3:etiqueta2}: %${4:f}  ${5:etiqueta3}: %${6:s}\\n', ${7:var1}, ${8:var2}, ${9:var3});"
+    ],
+    "description": "printf con multiples variables en una sola linea"
+  },
+
+  "Octave Figure Custom": {
+    "prefix": "fig",
+    "body": [
+      "figure('Name', '${1:Nombre de la figura}', 'NumberTitle', 'off');",
+      "plot(${2:x}, ${3:y}, '${4:b-}', 'LineWidth', ${5:2});",
+      "xlabel('${6:Eje X}', 'FontSize', ${7:12});",
+      "ylabel('${8:Eje Y}', 'FontSize', ${7:12});",
+      "title('${9:Titulo}', 'FontSize', ${10:14});",
+      "legend('${11:Serie 1}', 'Location', 'best');",
+      "grid on;",
+      "axis tight;"
+    ],
+    "description": "Figura personalizada con nombre, fuentes y eje ajustado"
+  },
+
+  "Octave Doc Header": {
+    "prefix": "doc",
+    "body": [
+      "%% Archivo : ${1:nombre}.m",
+      "%% Autor   : ${2:Nombre Apellido}",
+      "%% Fecha   : ${3:dd/mm/yyyy}",
+      "%% Desc.   : ${4:Descripcion del script}"
+    ],
+    "description": "Bloque de documentacion opcional (autor, fecha, descripcion)"
+  }
+}
